@@ -1,0 +1,146 @@
+[
+  {
+    "nombre": "Erick",
+    "email": "erickoviedo197@gmail.com",
+    "fecha": "2025-07-28",
+    "hora": "09:00",
+    "zona": "Pecho",
+    "primeraVez": "Sí",
+    "fechaRegistro": "2025-07-25T20:24:40.250Z"
+  },
+  {
+    "nombre": "Erick",
+    "email": "erickoviedo197@gmail.com",
+    "fecha": "2025-07-28",
+    "hora": "18:25",
+    "zona": "Brazos",
+    "primeraVez": "No",
+    "fechaRegistro": "2025-07-25T20:25:57.014Z"
+  },
+  {
+    "nombre": "Erick",
+    "email": "erickoviedo197@gmail.com",
+    "fecha": "2025-07-28",
+    "hora": "14:53",
+    "zona": "Pecho",
+    "primeraVez": "No",
+    "fechaRegistro": "2025-07-25T20:51:46.532Z"
+  },
+  {
+    "nombre": "Erick",
+    "email": "erickoviedo197@gmail.com",
+    "fecha": "2025-07-28",
+    "hora": "19:01",
+    "zona": "Entrenamiento general",
+    "primeraVez": "No",
+    "fechaRegistro": "2025-07-25T21:01:17.017Z"
+  },
+  {
+    "nombre": "erick",
+    "email": "erickoviedo197@gmail.com",
+    "fecha": "2025-08-14",
+    "hora": "14:57",
+    "zona": "Brazos",
+    "primeraVez": "Sí",
+    "fechaRegistro": "2025-08-08T20:54:47.937Z"
+  },
+  {
+    "nombre": "erick",
+    "email": "erickoviedo197@gmail.com",
+    "fecha": "2025-08-14",
+    "hora": "14:57",
+    "zona": "Brazos",
+    "primeraVez": "Sí",
+    "fechaRegistro": "2025-08-08T20:54:56.415Z"
+  },
+  {
+    "nombre": "erick",
+    "email": "erickoviedo197@gmail.com",
+    "fecha": "2025-08-14",
+    "hora": "14:58",
+    "zona": "Pecho",
+    "primeraVez": "Sí",
+    "fechaRegistro": "2025-08-08T20:55:17.343Z"
+  },
+  {
+    "nombre": "Erick",
+    "email": "erickoviedo197@gmail.com",
+    "fecha": "2025-08-22",
+    "hora": "13:58",
+    "zona": "Brazos",
+    "primeraVez": "Sí",
+    "fechaRegistro": "2025-08-11T16:58:38.206Z"
+  },
+  {
+    "nombre": "Erick",
+    "email": "erickoviedo197@gmail.com",
+    "fecha": "2025-08-22",
+    "hora": "14:15",
+    "zona": "Abdomen",
+    "primeraVez": "Sí",
+    "fechaRegistro": "2025-08-11T18:13:56.042Z"
+  },
+  {
+    "nombre": "Erick",
+    "email": "erickoviedo197@gmail.com",
+    "fecha": "2025-08-22",
+    "hora": "13:25",
+    "zona": "Pecho",
+    "primeraVez": "Sí",
+    "fechaRegistro": "2025-08-11T18:23:36.933Z"
+  },
+  {
+    "nombre": "Erick",
+    "email": "erickoviedo197@gmail.com",
+    "fecha": "2025-08-22",
+    "hora": "12:29",
+    "zona": "Brazos",
+    "primeraVez": "Sí",
+    "fechaRegistro": "2025-08-11T18:28:14.570Z"
+  },
+  {
+    "nombre": "Erick",
+    "email": "erickoviedo197@gmail.com",
+    "fecha": "2025-08-22",
+    "hora": "16:32",
+    "zona": "Abdomen",
+    "primeraVez": "Sí",
+    "fechaRegistro": "2025-08-16T22:34:44.303Z"
+  },
+  {
+    "nombre": "Erick",
+    "email": "erickoviedo197@gmail.com",
+    "fecha": "2025-08-22",
+    "hora": "18:35",
+    "zona": "Pecho",
+    "primeraVez": "Sí",
+    "fechaRegistro": "2025-08-16T22:35:55.207Z"
+  },
+  {
+    "nombre": "Erick",
+    "email": "erickoviedo197@gmail.com",
+    "fecha": "2025-10-08",
+    "hora": "13:38",
+    "zona": "Pecho",
+    "primeraVez": "No",
+    "fechaRegistro": "2025-09-27T16:38:37.147Z"
+  },
+  {
+    "nombre": "Erick",
+    "email": "erickoviedo197@gmail.com",
+    "fecha": "2025-10-15",
+    "hora": "11:39",
+    "zona": "Brazos",
+    "primeraVez": "Sí",
+    "fechaRegistro": "2025-09-27T16:39:20.760Z"
+  },
+  {
+    "nombre": "test",
+    "email": "test@gmail.com",
+    "fecha": "2025-09-28",
+    "hora": "10:10",
+    "zona": "Brazos",
+    "primeraVez": "Sí",
+    "fechaRegistro": "2025-09-27T19:21:24.700Z"
+  }
+]

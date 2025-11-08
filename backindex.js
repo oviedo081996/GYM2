@@ -8,6 +8,8 @@ const path = require('path');
 const { MongoClient } = require('mongodb'); // Importar MongoDB
 
 const app = express();
+
+// ⚠️ Usa el puerto dinámico que Render asigna automáticamente
 const PORT = process.env.PORT || 3000;
 
 // Middleware
@@ -60,7 +62,9 @@ app.post('/contact', async (req, res) => {
 
     // 2. Guardar en archivo local como respaldo
     const filePath = path.join(__dirname, 'mensajes.json');
-    let mensajes = fs.existsSync(filePath) ? JSON.parse(fs.readFileSync(filePath, 'utf-8') || '[]') : [];
+    let mensajes = fs.existsSync(filePath)
+      ? JSON.parse(fs.readFileSync(filePath, 'utf-8') || '[]')
+      : [];
     mensajes.push({ nombre, email, mensaje, fecha: new Date().toISOString() });
     fs.writeFileSync(filePath, JSON.stringify(mensajes, null, 2), 'utf-8');
     console.log('📝 Mensaje guardado en mensajes.json');
@@ -109,14 +113,24 @@ app.post('/reserva', async (req, res) => {
 
     // 2. Guardar en archivo local como respaldo
     const filePath = path.join(__dirname, 'reservaciones.json');
-    let reservas = fs.existsSync(filePath) ? JSON.parse(fs.readFileSync(filePath, 'utf-8') || '[]') : [];
+    let reservas = fs.existsSync(filePath)
+      ? JSON.parse(fs.readFileSync(filePath, 'utf-8') || '[]')
+      : [];
     reservas.push({ nombre, email, fecha, hora, zona, primeraVez, fechaRegistro: new Date().toISOString() });
     fs.writeFileSync(filePath, JSON.stringify(reservas, null, 2), 'utf-8');
     console.log('📝 Reserva guardada en reservaciones.json');
 
     // 3. Guardar en MongoDB
     const db = client.db("dynamogym");
-    await db.collection("reservas").insertOne({ nombre, email, fecha, hora, zona, primeraVez, fechaRegistro: new Date() });
+    await db.collection("reservas").insertOne({
+      nombre,
+      email,
+      fecha,
+      hora,
+      zona,
+      primeraVez,
+      fechaRegistro: new Date()
+    });
     console.log('📦 Reserva guardada en MongoDB Atlas');
 
     return res.json({ msg: 'Reserva procesada con éxito (correo + guardado en DB).' });
@@ -129,5 +143,5 @@ app.post('/reserva', async (req, res) => {
 
 // ======================= INICIAR SERVIDOR =======================
 app.listen(PORT, '0.0.0.0', () => {
-  console.log(🚀 Servidor escuchando en el puerto ${PORT});
+  console.log(`🚀 Servidor escuchando en el puerto ${PORT}`);
 });

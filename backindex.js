@@ -8,7 +8,7 @@ const path = require('path');
 const { MongoClient } = require('mongodb'); // Importar MongoDB
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors());
@@ -128,6 +128,6 @@ app.post('/reserva', async (req, res) => {
 });
 
 // ======================= INICIAR SERVIDOR =======================
-app.listen(PORT, () => {
-  console.log(`🚀 Servidor escuchando en http://localhost:${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(🚀 Servidor escuchando en el puerto ${PORT});
 });
